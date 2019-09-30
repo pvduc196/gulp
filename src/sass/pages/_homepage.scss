@@ -1,0 +1,55 @@
+.conversation {
+  @include size(340px, 100vh);
+  padding-left: 42px;
+
+  &__search {
+    position: relative;
+    margin-top: 20px;
+  }
+
+  &__search-input {
+    position: relative;
+    margin-left: 8px;
+    border: none;
+    outline: none;
+
+    &::placeholder {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 500;
+    }
+  }
+
+  &__list {
+    margin-top: 20px;
+    overflow-y: auto;
+    height: 100vh;
+  }
+
+  &__item {
+    display: flex;
+    margin-top: 20px;
+  }
+
+  &__avatar {
+    object-fit: cover;
+    @include size(40px);
+  }
+
+  &__content {
+    margin-left: 8px;
+  }
+
+  &__user {
+    font-weight: 500;
+  }
+
+  &__desc {
+    font-weight: 300;
+    color: grey;
+  }
+
+  &__time {
+    margin-left: auto;
+    font-size: 12px;
+  }
+}

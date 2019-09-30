@@ -1,0 +1,12 @@
+.nav {
+  @include size(60px, 100vh);
+  background: darkslateblue;
+
+  &__list {
+    @include flex(column);
+  }
+
+  &__item {
+    @include size(100%, 48px);
+  }
+}

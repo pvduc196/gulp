@@ -1,0 +1,86 @@
+@font-face {
+  font-family: 'iconfont';
+  src:
+    url('/font/iconfont.ttf') format('truetype'),
+    url('/font/iconfont.woff') format('woff'),
+    url('/font/iconfont.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'iconfont' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-add-contact:before {
+  content: "\e900";
+}
+.icon-attachment:before {
+  content: "\e901";
+}
+.icon-avatar:before {
+  content: "\e902";
+}
+.icon-delete:before {
+  content: "\e903";
+}
+.icon-file:before {
+  content: "\e904";
+}
+.icon-files:before {
+  content: "\e905";
+}
+.icon-folder:before {
+  content: "\e906";
+}
+.icon-happiness:before {
+  content: "\e907";
+}
+.icon-info:before {
+  content: "\e909";
+}
+.icon-magnifying-glass:before {
+  content: "\e90a";
+}
+.icon-megaphone:before {
+  content: "\e90b";
+}
+.icon-three-dot:before {
+  content: "\e90c";
+}
+.icon-collection:before {
+  content: "\e90d";
+}
+.icon-menu:before {
+  content: "\e90e";
+}
+.icon-notification:before {
+  content: "\e90f";
+}
+.icon-settings:before {
+  content: "\e910";
+}
+.icon-calendar:before {
+  content: "\e911";
+}
+.icon-bubble:before {
+  content: "\e912";
+}
+.icon-star:before {
+  content: "\e913";
+}
+.icon-stats:before {
+  content: "\e914";
+}
